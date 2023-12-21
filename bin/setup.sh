@@ -5,6 +5,7 @@ echo "****************************************"
 
 sudo apt-get update
 echo "Installing Python 3.8 Virtual Environment"
+sudo apt install -y python3.10-venv
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python3.8-venv
 
 echo "Making Python 3.8 the default..."
