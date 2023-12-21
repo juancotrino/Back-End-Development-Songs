@@ -31,7 +31,7 @@ if mongodb_service == None:
 if mongodb_username and mongodb_password:
     url = f"mongodb://{mongodb_username}:{mongodb_password}@{mongodb_service}"
 else:
-    url = f"mongodb://{mongodb_service}"
+    url = f"mongodb+srv://{mongodb_service}"
 
 
 print(f"connecting to url: {url}")
